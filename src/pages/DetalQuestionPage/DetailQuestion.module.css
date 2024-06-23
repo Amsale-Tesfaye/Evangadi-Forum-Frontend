@@ -1,0 +1,125 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-image: none;
+}
+
+/* Container styles */
+.container {
+  max-width: 100;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+ 
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Answers section styles */
+.answers_section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.answer {
+  display: flex;
+  align-items: center; /* Align items in the center */
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%; /* Ensure the answer takes the full width */
+  
+}
+
+.answer_username {
+  font-weight: bold;
+  margin-top: 0px; /* Space between username and avatar */
+  text-align: center; /* Center the username */
+  width: 50px; /* Same width as the avatar size */
+  
+}
+
+.answer_text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 20px; /* Space between avatar/username and answer text */
+  flex: 1; /* Ensure answer text takes remaining space */
+    display: flex;
+  align-items: center; /* Center answer text vertically */
+  justify-content: center; /* Center answer text horizontally */
+
+}
+
+/* Form styles */
+.answer_form {
+  margin-top: 5px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form elements */
+}
+
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in element's total width */
+  margin-bottom: 20px; /* Space between textarea and button */
+}
+
+.submit_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.submit_button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

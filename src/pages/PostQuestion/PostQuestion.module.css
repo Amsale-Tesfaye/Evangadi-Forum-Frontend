@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  height: 0vh; 
+  
+}
+
+/* Container styles */
+.container {
+  padding: 0px 200px; /* 20px padding for top and 30px padding for left and right */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+  margin: 0px auto; /* Center the container horizontally and add top margin */
+}
+
+/* Steps container styles */
+.steps_container {
+  background-color: #f9f9f9; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 30px; /* Space between sections */
+  max-width: 800px; /* Limit the maximum width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.steps_heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.steps_list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.steps_list li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Form styles */
+.form {
+  background-color: #fff; 
+  padding: 40px; /* Increased padding for larger appearance */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%; /* Set width to 90% for larger appearance */
+  max-width: 1000px; /* Limit the maximum width */
+  margin: auto; /* Center the form horizontally */
+}
+
+.form_heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  align-items: center;
+}
+ h2{
+    align-items: center;
+}
+ 
+
+.input_field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in element's total width */
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in element's total width */
+}
+
+.submit_button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit_button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

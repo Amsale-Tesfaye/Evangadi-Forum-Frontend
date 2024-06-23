@@ -1,0 +1,89 @@
+
+/* Styles for the main container */
+.mainHome {
+  padding: 130px;
+  background-color: whitesmoke;
+  padding-top: 10px;
+}
+
+
+/* Styles for the header container */
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px; /* Added padding for left and right sides */
+}
+
+/* Styles for the sub-header section */
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 50px; /* Added padding for left and right sides */
+}
+
+.subHeader div {
+  display: flex;
+  align-items: center;
+}
+
+.subHeader .welcome {
+  margin-left: auto; /* Push the welcome message to the right */
+}
+
+.Ask {
+  margin-right: auto;
+  /* padding: 100 0px; */
+  margin-right: 700px;
+  background-color: royalblue;
+  color: white;
+}
+
+.Ask {
+  margin-top: 5px;
+}
+
+/* Styles for the questions container */
+.questionContainer {
+  width: 100%;
+  padding: 0 30px; /* Added padding for left and right sides */
+  margin-top: 0;
+}
+
+.questionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.questionItem div {
+  display: flex;
+  align-items: center;
+}
+
+.questionItem hr {
+  margin: 0 10px;
+}
+
+.questionItem p {
+  margin: 0;
+}
+
+.questionItem .questionTitle {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.questionItem .profileAndTitle {
+  display: flex;
+    flex-direction: column; /* Stack avatar and username vertically */
+  align-items: center;
+}

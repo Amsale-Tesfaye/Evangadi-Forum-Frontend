@@ -1,0 +1,89 @@
+
+body { 
+ background-image: url(../../image/img1.svg);
+  background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+}
+
+/* Styles for the main section */
+.main_section {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px; /* 50px padding for both sides */
+  padding-top: 20px;
+  box-sizing: border-box; /* Include padding in element's total width and height */
+  max-width: 100%;
+   padding-bottom: 20px;
+}
+
+/* Styles for the right container (login form) */
+.rightContainer {
+  width: 45%; /* Adjust the width as needed */
+  /* background-color: #f5f5f5; Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding-bottom: 40px;
+}
+
+.rightContainer h2 {
+  margin-bottom: 20px;
+}
+
+.rightContainer p {
+  margin-bottom: 20px;
+}
+
+.rightContainer textarea,
+.rightContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in element's total width */
+}
+
+.rightContainer button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  /* background-color: #007bff; Bootstrap primary color */
+  /* color: white; */
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.rightContainer button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.rightContainer .forget button[type="submit"] {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+/* Styles for the left container (about section) */
+.leftContainer {
+  width: 45%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.leftContainer h1 {
+  margin-bottom: 0px;
+}
+
+.leftContainer h4 {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* .forget {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+} */
