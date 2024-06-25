@@ -3,11 +3,10 @@ import { useEffect, useState, createContext } from "react";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
-import Header from "./pages/Header/Header";
 import axios from "./axiosConfig";
 import DetailQuestion from "./pages/DetalQuestionPage/DetailQuestion";
 import PostQuestion from "./pages/PostQuestion/PostQuestion";
-import Footer from "./pages/Footer/Footer";
+
 
 
 export const AppState = createContext();
@@ -38,15 +37,15 @@ function App() {
   return (
     <AppState.Provider value={{ user, setuser }}>
       <Routes>
-        <Route path="/header" element={<Header />} />
+        {/* <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
 
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/ask-question" element={<PostQuestion />} />
         <Route path="/questions/:questionid" element={<DetailQuestion />} />
 
-        <Route path="/footer" element={<Footer />} />
       </Routes>
     </AppState.Provider>
   );
