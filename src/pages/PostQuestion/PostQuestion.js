@@ -2,12 +2,13 @@ import axios from '../../axiosConfig';
 import React, { useRef } from 'react'
 import classes from "./PostQuestion.module.css"
 import Header from '../Header/Header';
+import { useNavigate } from 'react-router-dom';
 
 
 function PostQuestion() {
 const titleDom = useRef();
 const descriptionDom = useRef();
-
+const navigate= useNavigate()
 async function handleSubmit(e) {
 
     e.preventDefault();
@@ -36,6 +37,7 @@ async function handleSubmit(e) {
           config
         );
         alert("Your question has been posted");
+        navigate("/")
      } catch (error) { 
         console.log()
      }

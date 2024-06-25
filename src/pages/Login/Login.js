@@ -32,7 +32,7 @@ function Login() {
 
       localStorage.setItem("token", data.token);
 
-      navigate("/home");
+      navigate("/");
       console.log(data);
     } catch (error) {
       alert(error?.response?.data?.msg);

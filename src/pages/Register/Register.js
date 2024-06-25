@@ -40,7 +40,7 @@ function Register() {
         password: passValue,
       });
       alert("register sucessful. Please login");
-      navigate("/");
+      navigate("/login");
     } catch (error) {
       alert("something went wrong!");
       console.log(error.response);
